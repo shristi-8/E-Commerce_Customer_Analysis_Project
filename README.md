@@ -5,8 +5,6 @@ A complete Data Analytics project using Python, SQL, and Power BI-ready outputs.
 ## Project Objective
 Analyze customer behavior, order activity, customer value, preferred categories, geography, loyalty/engagement, and the dataset-provided fraud indicator.
 
-> AI/ML is intentionally excluded from this version.
-
 ## Tech Stack
 - Python
 - Jupyter Notebook
@@ -105,24 +103,6 @@ The notebook will:
 - Loyalty score → 0–100 validation
 - Churn risk → 0–1 validation
 - Fraud indicator → 0/1 validation
-
-## Output
-The main output is:
-`ecommerce_customer_cleaned.csv`
-
-This cleaned dataset can be used for SQL analysis and Power BI dashboard creation.
-
-## SQL
-For SQL practice/analysis, import the cleaned CSV into MySQL, PostgreSQL, SQL Server, or another compatible database and create a customer table. Business questions can then be answered using GROUP BY, CTEs, subqueries, window functions, and aggregations.
-
-## Power BI
-Use `ecommerce_customer_cleaned.csv` as the data source in Power BI. Suggested dashboard sections:
-- KPI cards
-- Customer segments
-- Category performance
-- Country-wise order activity
-- Loyalty vs customer value
-- Fraud indicator overview
 
 ## Important
 The notebook is the primary reproducible analysis file. The DOCX report documents the project, methodology, findings, and execution steps.
